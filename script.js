@@ -5,10 +5,20 @@ const apps = {
 };
 
 function loadApp(app) {
-    const img = document.getElementById('imagem');
+    //const img = document.getElementById('imagem');
     const iframe = document.getElementById('contentFrame');
 
-    img.hidden=app;
+    //img.hidden=app;
     iframe.src = apps[app];
     
 }
+
+const menuToggleButtons = document.querySelectorAll('.menu-toggle');
+const sidebar = document.getElementById('sidebar');
+
+menuToggleButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        sidebar.classList.toggle('-translate-x-full');
+    });
+});
+
