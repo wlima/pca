@@ -4,8 +4,10 @@ html,
             margin: 0;
             display: flex;
             flex-direction: column;
-        }
-
+            background-image: url("./BACKGROUND-CCR_MBA.jpg") ;
+            background-repeat: no-repeat;
+            background-position-x: center ;
+            background-size: contain;
         #content {
             display: flex;
             flex: 1;
