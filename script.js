@@ -13,7 +13,10 @@ const apps = {
     equipamento:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/25d6e2f8-833e-4017-a5b7-fffd83351d62?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1726000453480&source=portal&HidenavBar=true",
     bodyCam:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/1658afe3-3793-412a-9256-e22c61ac04a7?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1727722911702&source=portal&HidenavBar=true",
     consultaEstoque:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/9cece1bd-84e9-49a6-80e9-56fa012ea9d5?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1727724078696&source=portal&HidenavBar=true",
-    contratos: "https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/df3ea50e-d020-4ac8-980f-1721708201b9?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1735566975027&source=portal&HidenavBar=true"
+    contratos: "https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/df3ea50e-d020-4ac8-980f-1721708201b9?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1735566975027&source=portal&HidenavBar=true",
+    APS: "https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/0334c805-3715-4205-8600-0d2abf39ebaf?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1742903459279&source=portal&HidenavBar=true",
+    beneficios:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/3b03ceae-7b66-4b95-a533-ba08faf3f6fc?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1742904752324&source=portal&HidenavBar=true"
+
 };
 
 /**Função responsável por buscar na array "app", qual aplicação foi selecionada carrega-la no iframe */
