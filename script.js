@@ -15,7 +15,11 @@ const apps = {
     consultaEstoque:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/9cece1bd-84e9-49a6-80e9-56fa012ea9d5?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1727724078696&source=portal&HidenavBar=true",
     contratos: "https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/df3ea50e-d020-4ac8-980f-1721708201b9?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1735566975027&source=portal&HidenavBar=true",
     APS: "https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/0334c805-3715-4205-8600-0d2abf39ebaf?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1742903459279&source=portal&HidenavBar=true",
-    beneficios:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/3b03ceae-7b66-4b95-a533-ba08faf3f6fc?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1742904752324&source=portal&HidenavBar=true"
+    beneficios:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/3b03ceae-7b66-4b95-a533-ba08faf3f6fc?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1742904752324&source=portal&HidenavBar=true",
+    cofre:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/6c02f4c4-7782-46fa-aa57-de8b4051f1f5?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343194463&source=portal&HidenavBar=true",
+    absenteismo:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/c1cc50e3-d8a3-4a5e-a3ad-74b62f6d5ec0?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343518202&source=portal&HidenavBar=true",
+    getra:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/6cf19c8a-705c-463c-a340-e50751e28215?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343518185&source=portal&HidenavBar=true",
+    teet:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/d155e9b3-d784-45b1-aa14-d9555bf120ec?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343518204&source=portal&HidenavBar=true"
 
 };
 
