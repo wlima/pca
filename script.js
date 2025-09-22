@@ -20,7 +20,9 @@ const apps = {
     absenteismo:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/c1cc50e3-d8a3-4a5e-a3ad-74b62f6d5ec0?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343518202&source=portal&HidenavBar=true",
     getra:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/6cf19c8a-705c-463c-a340-e50751e28215?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343518185&source=portal&HidenavBar=true",
     teet:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/d155e9b3-d784-45b1-aa14-d9555bf120ec?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1747343518204&source=portal&HidenavBar=true",
-    restricao:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/339b26fc-3ba5-4373-bf6b-b201b1e4f397?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1751305071869&source=portal&hidenavBar=true"
+    restricao:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/339b26fc-3ba5-4373-bf6b-b201b1e4f397?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1751305071869&source=portal&hidenavBar=true",
+    getra:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/6cf19c8a-705c-463c-a340-e50751e28215?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1758552924941&source=portal&hidenavBar=true",
+    teet:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/d155e9b3-d784-45b1-aa14-d9555bf120ec?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1758552924947&source=portal&hidenavBar=true"
 
 };
 
