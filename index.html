@@ -14,14 +14,15 @@
 <body class="bg-white">
 
     <!-- Cabeçalho -->
-    <header class="bg-indigo-500 flex items-center justify-between p-2 bg-gray-50 dark:bg-gray-800 text-black dark:text-indigo-600">
+    <header
+        class="bg-indigo-500 flex items-center justify-between p-2 bg-gray-50 dark:bg-gray-800 text-black dark:text-indigo-600">
         <div class="flex items-center">
             <!-- Logo -->
-            <img src="img/logo.jpg" alt="Logo" class="h-20 w-30 mr-3 rounded-lg" >
+            <img src="img/logo.jpg" alt="Logo" class="h-20 w-30 mr-3 rounded-lg">
             <!-- Nome da aplicação -->
             <div>
                 <h1 class="text-2xl font-bold text-gray-100">SGC - PCA</h1>
-                <span class="text-sm text-gray-300 underline">Sistema de Gestão e Controles  do PCA</span>
+                <span class="text-sm text-gray-300 underline">Sistema de Gestão e Controles do PCA</span>
             </div>
         </div>
 
@@ -42,7 +43,7 @@
             <div class="h-full px-3 py-4 overflow-y-auto ">
                 <ul class="space-y-2 font-medium">
                     <hr>
-                    <li> <!--Dashboard -->
+                    <!-- <li> <!--Dashboard 
                         <a href="#" onclick="loadApp('dashboard')"
                             class=" flex items-center p-2  rounded-lg dark:text-indigo-600 hover:bg-indigo-100 dark:hover:bg-indigo-700 group">
                             <svg class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
@@ -55,8 +56,8 @@
                             </svg>
                             <span class="ms-3 ">Dashboard</span>
                         </a>
-                    </li>
-                    <li> <!--Colaborador-->
+                    </li> -->
+                    <li> <!--Cadastros-->
                         <button type="button"
                             class="flex items-center w-full p-2 text-base  transition duration-75 rounded-lg group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700"
                             aria-controls="dropdown-colaborador" data-collapse-toggle="dropdown-colaborador">
@@ -74,21 +75,7 @@
                             </svg>
                         </button>
                         <ul id="dropdown-colaborador" class="hidden py-2 space-y-2">
-                            <li>
-                                <a href="#"
-                                    class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700"
-                                    onclick="loadApp('cadastroColaborador')">
-                                    <?xml version="1.0" encoding="iso-8859-1"?>
-                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                                    <svg class=" flex-shrink-0 w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
-                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                        viewBox="0 0 20 18">
-                                        <path
-                                            d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
-                                    </svg>&nbsp;&nbsp;
-                                    Colaborador
-                                </a>
-                            </li>
+                            
                             <li>
                                 <a href="#"
                                     class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700"
@@ -182,29 +169,7 @@
                                     </svg>&nbsp;&nbsp;
                                     Fardamento</a>
                             </li>
-                            <li>
-                                <a href="#"
-                                    class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700"
-                                    onclick="loadApp('produto')">
-                                    <?xml version="1.0" encoding="UTF-8"?>
-                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                                    <svg class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
-                                        viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <title>product</title>
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="icon" fill="#000000" transform="translate(64.000000, 34.346667)">
-                                                <path
-                                                    d="M192,7.10542736e-15 L384,110.851252 L384,332.553755 L192,443.405007 L1.42108547e-14,332.553755 L1.42108547e-14,110.851252 L192,7.10542736e-15 Z M127.999,206.918 L128,357.189 L170.666667,381.824 L170.666667,231.552 L127.999,206.918 Z M42.6666667,157.653333 L42.6666667,307.920144 L85.333,332.555 L85.333,182.286 L42.6666667,157.653333 Z M275.991,97.759 L150.413,170.595 L192,194.605531 L317.866667,121.936377 L275.991,97.759 Z M192,49.267223 L66.1333333,121.936377 L107.795,145.989 L233.374,73.154 L192,49.267223 Z"
-                                                    id="Combined-Shape">
-
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>&nbsp;&nbsp;
-                                    Produto
-                                </a>
-                            </li>
+                            
                         </ul>
                     </li>
                     <li> <!--Estoque-->
@@ -256,31 +221,35 @@
                                     </svg>&nbsp;&nbsp;
                                     Inventário</a>
                             </li>
+                            
                             <li>
-                                <a href="#" onclick="loadApp('solicitacao')"
+                                <a href="#"
                                     class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700">
-                                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com,
-                                    Generator: SVG Repo Mixer Tools -->
-                                    <svg class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
-                                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M8.5 17.5L5.5 20V15.5H2.46154C2.07391 15.5 1.70217 15.346 1.42807 15.0719C1.15398 14.7978 1 14.4261 1 14.0385V2.46154C1 2.07391 1.15398 1.70217 1.42807 1.42807C1.70217 1.15398 2.07391 1 2.46154 1H18.5385C18.9261 1 19.2978 1.15398 19.5719 1.42807C19.846 1.70217 20 2.07391 20 2.46154V6.8119"
-                                            stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path d="M5 5H16" stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path d="M5 9H10" stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path
-                                            d="M17 19C19.2091 19 21 17.2091 21 15C21 12.7909 19.2091 11 17 11C14.7909 11 13 12.7909 13 15C13 17.2091 14.7909 19 17 19Z"
-                                            stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path
-                                            d="M22 22C21.5167 21.3959 20.7962 20.8906 19.9155 20.5384C19.0348 20.1861 18.027 20 17 20C15.973 20 14.9652 20.1861 14.0845 20.5384C13.2038 20.8906 12.4833 21.3959 12 22"
-                                            stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </svg>&nbsp;&nbsp;
-                                    Solicitação
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                    <!DOCTYPE svg
+                                        PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                                    <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
+                                        viewBox="0 0 446.766 446.767" xml:space="preserve">
+                                        <g>
+                                            <path d="M382.661,155.59c-0.645-0.404-1.33-0.715-2.039-0.936c-0.148-0.069-0.295-0.146-0.449-0.208L231.368,94.719V27.251
+                        l35.59,35.591c1.557,1.559,3.602,2.338,5.645,2.338c2.041,0,4.086-0.779,5.645-2.338c3.117-3.118,3.117-8.169,0-11.287
+                        L229.03,2.339c-3.118-3.118-8.169-3.118-11.287,0l-49.224,49.216c-3.118,3.113-3.118,8.169-0.002,11.287
+                        c3.118,3.117,8.171,3.117,11.288,0l35.6-35.592v67.993L65.321,173.689c-0.135,0.07-0.259,0.152-0.388,0.229
+                        c-0.415,0.199-0.82,0.423-1.204,0.69c-2.321,1.627-3.703,4.283-3.703,7.117v200.181c0,3.657,2.288,6.922,5.725,8.17l154.665,56.166
+                        c0.15,0.054,0.303,0.097,0.455,0.143c0.065,0.021,0.128,0.042,0.193,0.062c0.333,0.093,0.67,0.16,1.009,0.214
+                        c0.083,0.013,0.165,0.021,0.248,0.032c0.354,0.043,0.708,0.073,1.062,0.073c0.393,0,0.785-0.036,1.175-0.089
+                        c0.117-0.017,0.231-0.039,0.348-0.06c0.287-0.053,0.57-0.117,0.853-0.197c0.113-0.032,0.227-0.062,0.338-0.097
+                        c0.365-0.121,0.727-0.259,1.078-0.43l0.037-0.019c0.002-0.001,0.004-0.002,0.006-0.002l154.621-74.923
+                        c2.998-1.451,4.902-4.49,4.902-7.82V162.95C386.739,159.961,385.198,157.178,382.661,155.59z M214.69,425.67L77.41,375.817V194.135
+                        l137.28,49.852V425.67z M222.897,228.474L90.221,180.29l125.184-65.431v61.543c0,4.408,3.573,7.982,7.981,7.982
+                        s7.982-3.574,7.982-7.982v-62.948l125.191,50.252L222.897,228.474z M369.354,357.688l-137.281,66.518V243.342l137.281-66.521
+                        V357.688L369.354,357.688z" />
+                                        </g>
+                                    </svg>&nbsp;
+                                    Movimentação Avulsa
                                 </a>
                             </li>
                             <li>
@@ -321,34 +290,55 @@
                             </li>
                             <li>
                                 <a href="#"
-                                    class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700">
-                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700"
+                                    onclick="loadApp('produto')">
+                                    <?xml version="1.0" encoding="UTF-8"?>
                                     <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                                    <!DOCTYPE svg
-                                        PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-                                    <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink"
-                                        class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
-                                        viewBox="0 0 446.766 446.767" xml:space="preserve">
-                                        <g>
-                                            <path d="M382.661,155.59c-0.645-0.404-1.33-0.715-2.039-0.936c-0.148-0.069-0.295-0.146-0.449-0.208L231.368,94.719V27.251
-                        l35.59,35.591c1.557,1.559,3.602,2.338,5.645,2.338c2.041,0,4.086-0.779,5.645-2.338c3.117-3.118,3.117-8.169,0-11.287
-                        L229.03,2.339c-3.118-3.118-8.169-3.118-11.287,0l-49.224,49.216c-3.118,3.113-3.118,8.169-0.002,11.287
-                        c3.118,3.117,8.171,3.117,11.288,0l35.6-35.592v67.993L65.321,173.689c-0.135,0.07-0.259,0.152-0.388,0.229
-                        c-0.415,0.199-0.82,0.423-1.204,0.69c-2.321,1.627-3.703,4.283-3.703,7.117v200.181c0,3.657,2.288,6.922,5.725,8.17l154.665,56.166
-                        c0.15,0.054,0.303,0.097,0.455,0.143c0.065,0.021,0.128,0.042,0.193,0.062c0.333,0.093,0.67,0.16,1.009,0.214
-                        c0.083,0.013,0.165,0.021,0.248,0.032c0.354,0.043,0.708,0.073,1.062,0.073c0.393,0,0.785-0.036,1.175-0.089
-                        c0.117-0.017,0.231-0.039,0.348-0.06c0.287-0.053,0.57-0.117,0.853-0.197c0.113-0.032,0.227-0.062,0.338-0.097
-                        c0.365-0.121,0.727-0.259,1.078-0.43l0.037-0.019c0.002-0.001,0.004-0.002,0.006-0.002l154.621-74.923
-                        c2.998-1.451,4.902-4.49,4.902-7.82V162.95C386.739,159.961,385.198,157.178,382.661,155.59z M214.69,425.67L77.41,375.817V194.135
-                        l137.28,49.852V425.67z M222.897,228.474L90.221,180.29l125.184-65.431v61.543c0,4.408,3.573,7.982,7.981,7.982
-                        s7.982-3.574,7.982-7.982v-62.948l125.191,50.252L222.897,228.474z M369.354,357.688l-137.281,66.518V243.342l137.281-66.521
-                        V357.688L369.354,357.688z" />
+                                    <svg class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
+                                        viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <title>product</title>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="icon" fill="#000000" transform="translate(64.000000, 34.346667)">
+                                                <path
+                                                    d="M192,7.10542736e-15 L384,110.851252 L384,332.553755 L192,443.405007 L1.42108547e-14,332.553755 L1.42108547e-14,110.851252 L192,7.10542736e-15 Z M127.999,206.918 L128,357.189 L170.666667,381.824 L170.666667,231.552 L127.999,206.918 Z M42.6666667,157.653333 L42.6666667,307.920144 L85.333,332.555 L85.333,182.286 L42.6666667,157.653333 Z M275.991,97.759 L150.413,170.595 L192,194.605531 L317.866667,121.936377 L275.991,97.759 Z M192,49.267223 L66.1333333,121.936377 L107.795,145.989 L233.374,73.154 L192,49.267223 Z"
+                                                    id="Combined-Shape">
+
+                                                </path>
+                                            </g>
                                         </g>
-                                    </svg>&nbsp;
-                                    Movimentação Avulsa
+                                    </svg>&nbsp;&nbsp;
+                                    Produto
                                 </a>
                             </li>
+                            <li>
+                                <a href="#" onclick="loadApp('solicitacao')"
+                                    class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700">
+                                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com,
+                                    Generator: SVG Repo Mixer Tools -->
+                                    <svg class="w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
+                                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.5 17.5L5.5 20V15.5H2.46154C2.07391 15.5 1.70217 15.346 1.42807 15.0719C1.15398 14.7978 1 14.4261 1 14.0385V2.46154C1 2.07391 1.15398 1.70217 1.42807 1.42807C1.70217 1.15398 2.07391 1 2.46154 1H18.5385C18.9261 1 19.2978 1.15398 19.5719 1.42807C19.846 1.70217 20 2.07391 20 2.46154V6.8119"
+                                            stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5 5H16" stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5 9H10" stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M17 19C19.2091 19 21 17.2091 21 15C21 12.7909 19.2091 11 17 11C14.7909 11 13 12.7909 13 15C13 17.2091 14.7909 19 17 19Z"
+                                            stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M22 22C21.5167 21.3959 20.7962 20.8906 19.9155 20.5384C19.0348 20.1861 18.027 20 17 20C15.973 20 14.9652 20.1861 14.0845 20.5384C13.2038 20.8906 12.4833 21.3959 12 22"
+                                            stroke="#71717A" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>&nbsp;&nbsp;
+                                    Solicitação
+                                </a>
+                            </li>
+                            
                         </ul>
                     </li>
                     <li> <!--Reservas-->
@@ -506,7 +496,7 @@
                                     </svg>&nbsp;&nbsp;
                                     Equipamento
                                 </a>
-                            </li>                            
+                            </li>
                         </ul>
                     </li>
                     <li> <!--Controles-->
@@ -720,6 +710,7 @@
                             </svg>
                         </button>
                         <ul id="dropdown-gestao" class="hidden py-2 space-y-2">
+                            
                             <li>
                                 <a href="#"
                                     class="menu-item flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-indigo-600 dark:hover:bg-gray-700"
@@ -736,7 +727,22 @@
                                     Absenteismo
                                 </a>
                             </li>
-                             <li>
+                            <li>
+                                <a href="#"
+                                    class="menu-item flex items-center w-full p-2  transition duration-75 rounded-lg pl-11 group hover:bg-indigo-100 dark:text-indigo-600 dark:hover:bg-indigo-700"
+                                    onclick="loadApp('cadastroColaborador')">
+                                    <?xml version="1.0" encoding="iso-8859-1"?>
+                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                    <svg class=" flex-shrink-0 w-5 h-5  transition duration-75 dark:text-indigo-400 group-hover: dark:group-hover:text-indigo-600"
+                                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        viewBox="0 0 20 18">
+                                        <path
+                                            d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
+                                    </svg>&nbsp;&nbsp;
+                                    Colaborador
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#"
                                     class="menu-item flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-indigo-600 dark:hover:bg-gray-700"
                                     onclick="loadApp('getra')">
@@ -809,7 +815,7 @@
                                     &nbsp;&nbsp;
                                     Gestão TEET
                                 </a>
-                            </li>                            
+                            </li>
                             <li>
                                 <a href="#"
                                     class="menu-item flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-indigo-600 dark:hover:bg-gray-700"
@@ -837,24 +843,66 @@
                             <li>
                                 <a href="#"
                                     class="menu-item flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-indigo-600 dark:hover:bg-gray-700"
+                                    onclick="loadApp('medida')">
+                                    <?xml version="1.0" encoding="UTF-8"?>
+                                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="800px" width="800px"
+                                        class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-indigo-600"
+                                        viewBox="0 0 128 128">
+
+                                        <!-- Fundo do escudo -->
+                                        <path d="M64 8 L112 32 V72 C112 96 88 120 64 120 C40 120 16 96 16 72 V32 Z"
+                                            fill="#000000" stroke="#000000" stroke-width="4" />
+
+                                        <!-- Ícone de checklist -->
+                                        <rect x="40" y="40" width="48" height="48" rx="6" fill="#FFFFFF"
+                                            stroke="#000000" stroke-width="2" />
+
+                                        <!-- Linhas do checklist -->
+                                        <line x1="48" y1="52" x2="72" y2="52" stroke="#000000" stroke-width="3" />
+                                        <line x1="48" y1="64" x2="72" y2="64" stroke="#000000" stroke-width="3" />
+                                        <line x1="48" y1="76" x2="72" y2="76" stroke="#000000" stroke-width="3" />
+
+                                        <!-- Marcas de verificação -->
+                                        <polyline points="40,52 44,56 50,48" stroke="#000000" stroke-width="3"
+                                            fill="none" />
+                                        <polyline points="40,64 44,68 50,60" stroke="#000000" stroke-width="3"
+                                            fill="none" />
+                                        <polyline points="40,76 44,80 50,72" stroke="#000000" stroke-width="3"
+                                            fill="none" />
+                                    </svg>
+                                    &nbsp;&nbsp;
+                                    Medida Diciplinar
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="menu-item flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-indigo-600 dark:hover:bg-gray-700"
                                     onclick="loadApp('restricao')">
                                     <?xml version="1.0" encoding="UTF-8"?>
                                     <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                                  
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-indigo-600">
-<g>
-	<g>
-		<path style="fill:#030104;" d="M8.806,5.839c-1.716,0-3.111,1.396-3.111,3.112c0,0.537,0.137,1.043,0.377,1.485l4.219-4.219    C9.849,5.976,9.344,5.839,8.806,5.839z"/>
-		<path style="fill:#030104;" d="M7.322,11.685c0.442,0.24,0.948,0.377,1.485,0.377c1.716,0,3.112-1.396,3.112-3.111    c0-0.537-0.138-1.043-0.378-1.484L7.322,11.685z"/>
-		<path style="fill:#030104;" d="M15.955,4.295c-0.213-0.192-0.518-0.253-0.788-0.159c-0.004,0.002-1.042,0.145-1.042,0.145    s-3.245-0.66-4.596-3.805C9.407,0.195,9.135,0.009,8.829,0C8.502-0.007,8.24,0.161,8.103,0.435C6.518,3.613,3.395,4.28,3.395,4.28    l-0.92-0.133C2.202,4.038,1.891,4.09,1.67,4.282C1.447,4.474,1.351,4.774,1.419,5.059c0.499,2.096,3.2,12.554,7.389,12.554    c4.188,0,6.888-10.458,7.387-12.554C16.261,4.78,16.168,4.488,15.955,4.295z M8.806,13.142c-2.311,0-4.191-1.881-4.191-4.191    c0-2.311,1.88-4.191,4.191-4.191s4.191,1.88,4.191,4.191C12.997,11.261,11.118,13.142,8.806,13.142z"/>
-	</g>
-</g>
-</svg>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        height="800px" width="800px"
+                                        class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-indigo-600">
+                                        <g>
+                                            <g>
+                                                <path style="fill:#030104;"
+                                                    d="M8.806,5.839c-1.716,0-3.111,1.396-3.111,3.112c0,0.537,0.137,1.043,0.377,1.485l4.219-4.219    C9.849,5.976,9.344,5.839,8.806,5.839z" />
+                                                <path style="fill:#030104;"
+                                                    d="M7.322,11.685c0.442,0.24,0.948,0.377,1.485,0.377c1.716,0,3.112-1.396,3.112-3.111    c0-0.537-0.138-1.043-0.378-1.484L7.322,11.685z" />
+                                                <path style="fill:#030104;"
+                                                    d="M15.955,4.295c-0.213-0.192-0.518-0.253-0.788-0.159c-0.004,0.002-1.042,0.145-1.042,0.145    s-3.245-0.66-4.596-3.805C9.407,0.195,9.135,0.009,8.829,0C8.502-0.007,8.24,0.161,8.103,0.435C6.518,3.613,3.395,4.28,3.395,4.28    l-0.92-0.133C2.202,4.038,1.891,4.09,1.67,4.282C1.447,4.474,1.351,4.774,1.419,5.059c0.499,2.096,3.2,12.554,7.389,12.554    c4.188,0,6.888-10.458,7.387-12.554C16.261,4.78,16.168,4.488,15.955,4.295z M8.806,13.142c-2.311,0-4.191-1.881-4.191-4.191    c0-2.311,1.88-4.191,4.191-4.191s4.191,1.88,4.191,4.191C12.997,11.261,11.118,13.142,8.806,13.142z" />
+                                            </g>
+                                        </g>
+                                    </svg>
                                     &nbsp;&nbsp;
                                     Restrito
                                 </a>
                             </li>
-                           
+
                         </ul>
                     </li>
                     <li> <!--Gestão de Facilities-->
