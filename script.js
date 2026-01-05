@@ -22,7 +22,8 @@ const apps = {
     teet:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/d268c00d-3f1d-4856-81fa-8ac7facb7aa0?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=773669c0-87c1-488d-b223-c80eccdd99b5&sourcetime=1758895869812&source=portal&HidenavBar=true",
     restricao:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/fd4e28bd-7351-4ea5-9698-77f65bc96739?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=a85c1994-d144-42fe-bdd2-654c4838c1ee&sourcetime=1758891387448&source=portal&hidenavBar=true",
     medida:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/ea6839ea-34df-449d-92f1-e31384b69514?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1762524643590&source=portal&hidenavBar=true",
-    dea:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/415f2a11-7525-4ec4-bbbe-fa98c5406be2?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=dfdd4ee3-f559-4d4a-b2b5-537193d19250&sourcetime=1766064687533&source=portal&hidenavBar=true"
+    dea:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/415f2a11-7525-4ec4-bbbe-fa98c5406be2?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=dfdd4ee3-f559-4d4a-b2b5-537193d19250&sourcetime=1766064687533&source=portal&hidenavBar=true",
+    planeve:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/bc4c5fd0-a0ab-461d-aeba-978177bf069c?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=fa31abc9-d6dc-48ab-af67-9d2c62cb5a3e&sourcetime=1767641372783&source=portal&hidenavBar=true"
 };
 
 /**Função responsável por buscar na array "app", qual aplicação foi selecionada carrega-la no iframe */
