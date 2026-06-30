@@ -24,7 +24,8 @@ const apps = {
     medida:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/ea6839ea-34df-449d-92f1-e31384b69514?tenantId=d233d58a-9973-43a7-af69-6763630548a0&sourcetime=1762524643590&source=portal&hidenavBar=true",
     dea:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/415f2a11-7525-4ec4-bbbe-fa98c5406be2?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=dfdd4ee3-f559-4d4a-b2b5-537193d19250&sourcetime=1766064687533&source=portal&hidenavBar=true",
     planeve:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/bc4c5fd0-a0ab-461d-aeba-978177bf069c?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=fa31abc9-d6dc-48ab-af67-9d2c62cb5a3e&sourcetime=1767641372783&source=portal&hidenavBar=true",
-    indicadores:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/a2c937a1-f785-4d15-a283-fcb23f8edac1?source=teamsopenwebsite&screenColor=rgba(109%2C%2049%2C%20162%2C%201)&hint=8e461832-7df3-4621-8469-9581ca974108&tenantId=d233d58a-9973-43a7-af69-6763630548a0&hidenavbar=true"
+    indicadores:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/a2c937a1-f785-4d15-a283-fcb23f8edac1?source=teamsopenwebsite&screenColor=rgba(109%2C%2049%2C%20162%2C%201)&hint=8e461832-7df3-4621-8469-9581ca974108&tenantId=d233d58a-9973-43a7-af69-6763630548a0&hidenavbar=true",
+    demandas:"https://apps.powerapps.com/play/e/default-d233d58a-9973-43a7-af69-6763630548a0/a/1a391811-36cf-46fb-9027-07b3b16129b4?tenantId=d233d58a-9973-43a7-af69-6763630548a0&hint=fe9973f7-6222-4548-96ef-68980660725a&sourcetime=1782851839070&source=portal&hidenavbar=true"
 };
 
 /**Função responsável por buscar na array "app", qual aplicação foi selecionada carrega-la no iframe */
